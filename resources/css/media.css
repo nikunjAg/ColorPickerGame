@@ -1,0 +1,24 @@
+/* Extra Large Screens */
+@media screen and (max-width: 1200px) {
+    .list-item-1 { margin-left: 20%; }
+}
+
+/* Large screens */
+@media screen and (max-width: 992px) {
+    .list-item-1 { margin-left: 10%; width: 22%; }
+    .list-item-text { margin-left: 15%; width: 15%; }
+    .list-item-2 { margin-left: 15%; }
+    .container { width: 50%; }
+}
+
+/* Medium devices */
+@media screen and (max-width: 768px) {
+    .list-item-1 { margin-left: 7%; }
+    .container { width: 60%; }
+}
+
+/* Small devices */
+@media screen and (max-width: 576px) {
+    .list-item-2, .list-item-3 { width: 9%; }
+    .container { width: 70%; }
+}
